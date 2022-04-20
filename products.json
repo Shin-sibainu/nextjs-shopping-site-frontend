@@ -1,0 +1,335 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "attributes": {
+        "name": "ナイキの赤い靴",
+        "content": "ナイキの新作の赤い靴です。\n中にはスポンジが入っており、歩きやすい靴になっています。",
+        "meta_desc": "特売中です。お早めに。",
+        "meta_title": "履き心地抜群の靴。",
+        "price": 4980,
+        "slug": "nike-red-shoes",
+        "createdAt": "2022-04-15T22:30:06.222Z",
+        "updatedAt": "2022-04-15T22:33:06.491Z",
+        "publishedAt": "2022-04-15T22:33:06.490Z",
+        "image": {
+          "data": {
+            "id": 1,
+            "attributes": {
+              "name": "revolt-164_6wVEHfI-unsplash.jpg",
+              "alternativeText": "revolt-164_6wVEHfI-unsplash.jpg",
+              "caption": "revolt-164_6wVEHfI-unsplash.jpg",
+              "width": 1920,
+              "height": 1280,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_revolt-164_6wVEHfI-unsplash.jpg",
+                  "hash": "thumbnail_revolt_164_6w_VE_Hf_I_unsplash_3395298276",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 234,
+                  "height": 156,
+                  "size": 4.53,
+                  "url": "/uploads/thumbnail_revolt_164_6w_VE_Hf_I_unsplash_3395298276.jpg"
+                },
+                "large": {
+                  "name": "large_revolt-164_6wVEHfI-unsplash.jpg",
+                  "hash": "large_revolt_164_6w_VE_Hf_I_unsplash_3395298276",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 1000,
+                  "height": 667,
+                  "size": 61.27,
+                  "url": "/uploads/large_revolt_164_6w_VE_Hf_I_unsplash_3395298276.jpg"
+                },
+                "medium": {
+                  "name": "medium_revolt-164_6wVEHfI-unsplash.jpg",
+                  "hash": "medium_revolt_164_6w_VE_Hf_I_unsplash_3395298276",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 750,
+                  "height": 500,
+                  "size": 35.06,
+                  "url": "/uploads/medium_revolt_164_6w_VE_Hf_I_unsplash_3395298276.jpg"
+                },
+                "small": {
+                  "name": "small_revolt-164_6wVEHfI-unsplash.jpg",
+                  "hash": "small_revolt_164_6w_VE_Hf_I_unsplash_3395298276",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 500,
+                  "height": 333,
+                  "size": 16.23,
+                  "url": "/uploads/small_revolt_164_6w_VE_Hf_I_unsplash_3395298276.jpg"
+                }
+              },
+              "hash": "revolt_164_6w_VE_Hf_I_unsplash_3395298276",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 215.09,
+              "url": "/uploads/revolt_164_6w_VE_Hf_I_unsplash_3395298276.jpg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-04-15T22:29:49.915Z",
+              "updatedAt": "2022-04-15T22:29:49.915Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "name": "ナイキの白い靴",
+        "content": "人気継続中のナイキの白い靴。\n靴選びで迷ったらこれを選ぶと間違いないでしょう。",
+        "meta_desc": "スポンジ加工で歩行しやすい。",
+        "meta_title": "靴選びに困ったら。",
+        "price": 3980,
+        "slug": "white-shoes",
+        "createdAt": "2022-04-15T22:41:12.316Z",
+        "updatedAt": "2022-04-15T22:42:09.802Z",
+        "publishedAt": "2022-04-15T22:42:09.801Z",
+        "image": {
+          "data": {
+            "id": 2,
+            "attributes": {
+              "name": "feet-1840619_1920.jpg",
+              "alternativeText": "feet-1840619_1920.jpg",
+              "caption": "feet-1840619_1920.jpg",
+              "width": 1920,
+              "height": 1279,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_feet-1840619_1920.jpg",
+                  "hash": "thumbnail_feet_1840619_1920_20e318ef33",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 235,
+                  "height": 156,
+                  "size": 8.75,
+                  "url": "/uploads/thumbnail_feet_1840619_1920_20e318ef33.jpg"
+                },
+                "large": {
+                  "name": "large_feet-1840619_1920.jpg",
+                  "hash": "large_feet_1840619_1920_20e318ef33",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 1000,
+                  "height": 666,
+                  "size": 105.7,
+                  "url": "/uploads/large_feet_1840619_1920_20e318ef33.jpg"
+                },
+                "medium": {
+                  "name": "medium_feet-1840619_1920.jpg",
+                  "hash": "medium_feet_1840619_1920_20e318ef33",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 750,
+                  "height": 500,
+                  "size": 63.71,
+                  "url": "/uploads/medium_feet_1840619_1920_20e318ef33.jpg"
+                },
+                "small": {
+                  "name": "small_feet-1840619_1920.jpg",
+                  "hash": "small_feet_1840619_1920_20e318ef33",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 500,
+                  "height": 333,
+                  "size": 31.8,
+                  "url": "/uploads/small_feet_1840619_1920_20e318ef33.jpg"
+                }
+              },
+              "hash": "feet_1840619_1920_20e318ef33",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 338.1,
+              "url": "/uploads/feet_1840619_1920_20e318ef33.jpg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-04-15T22:40:57.943Z",
+              "updatedAt": "2022-04-15T22:40:57.943Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 3,
+      "attributes": {
+        "name": "ナイキの白い靴",
+        "content": "人気継続中のナイキの白い靴。\n靴選びで迷ったらこれを選ぶと間違いないでしょう。",
+        "meta_desc": "スポンジ加工で歩行しやすい。",
+        "meta_title": "靴選びに困ったら。",
+        "price": 3980,
+        "slug": "white-shoes",
+        "createdAt": "2022-04-15T22:41:12.316Z",
+        "updatedAt": "2022-04-15T22:42:09.802Z",
+        "publishedAt": "2022-04-15T22:42:09.801Z",
+        "image": {
+          "data": {
+            "id": 2,
+            "attributes": {
+              "name": "feet-1840619_1920.jpg",
+              "alternativeText": "feet-1840619_1920.jpg",
+              "caption": "feet-1840619_1920.jpg",
+              "width": 1920,
+              "height": 1279,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_feet-1840619_1920.jpg",
+                  "hash": "thumbnail_feet_1840619_1920_20e318ef33",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 235,
+                  "height": 156,
+                  "size": 8.75,
+                  "url": "/uploads/thumbnail_feet_1840619_1920_20e318ef33.jpg"
+                },
+                "large": {
+                  "name": "large_feet-1840619_1920.jpg",
+                  "hash": "large_feet_1840619_1920_20e318ef33",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 1000,
+                  "height": 666,
+                  "size": 105.7,
+                  "url": "/uploads/large_feet_1840619_1920_20e318ef33.jpg"
+                },
+                "medium": {
+                  "name": "medium_feet-1840619_1920.jpg",
+                  "hash": "medium_feet_1840619_1920_20e318ef33",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 750,
+                  "height": 500,
+                  "size": 63.71,
+                  "url": "/uploads/medium_feet_1840619_1920_20e318ef33.jpg"
+                },
+                "small": {
+                  "name": "small_feet-1840619_1920.jpg",
+                  "hash": "small_feet_1840619_1920_20e318ef33",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 500,
+                  "height": 333,
+                  "size": 31.8,
+                  "url": "/uploads/small_feet_1840619_1920_20e318ef33.jpg"
+                }
+              },
+              "hash": "feet_1840619_1920_20e318ef33",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 338.1,
+              "url": "/uploads/feet_1840619_1920_20e318ef33.jpg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-04-15T22:40:57.943Z",
+              "updatedAt": "2022-04-15T22:40:57.943Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 4,
+      "attributes": {
+        "name": "ナイキの白い靴",
+        "content": "人気継続中のナイキの白い靴。\n靴選びで迷ったらこれを選ぶと間違いないでしょう。",
+        "meta_desc": "スポンジ加工で歩行しやすい。",
+        "meta_title": "靴選びに困ったら。",
+        "price": 3980,
+        "slug": "white-shoes",
+        "createdAt": "2022-04-15T22:41:12.316Z",
+        "updatedAt": "2022-04-15T22:42:09.802Z",
+        "publishedAt": "2022-04-15T22:42:09.801Z",
+        "image": {
+          "data": {
+            "id": 2,
+            "attributes": {
+              "name": "feet-1840619_1920.jpg",
+              "alternativeText": "feet-1840619_1920.jpg",
+              "caption": "feet-1840619_1920.jpg",
+              "width": 1920,
+              "height": 1279,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_feet-1840619_1920.jpg",
+                  "hash": "thumbnail_feet_1840619_1920_20e318ef33",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 235,
+                  "height": 156,
+                  "size": 8.75,
+                  "url": "/uploads/thumbnail_feet_1840619_1920_20e318ef33.jpg"
+                },
+                "large": {
+                  "name": "large_feet-1840619_1920.jpg",
+                  "hash": "large_feet_1840619_1920_20e318ef33",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 1000,
+                  "height": 666,
+                  "size": 105.7,
+                  "url": "/uploads/large_feet_1840619_1920_20e318ef33.jpg"
+                },
+                "medium": {
+                  "name": "medium_feet-1840619_1920.jpg",
+                  "hash": "medium_feet_1840619_1920_20e318ef33",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 750,
+                  "height": 500,
+                  "size": 63.71,
+                  "url": "/uploads/medium_feet_1840619_1920_20e318ef33.jpg"
+                },
+                "small": {
+                  "name": "small_feet-1840619_1920.jpg",
+                  "hash": "small_feet_1840619_1920_20e318ef33",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 500,
+                  "height": 333,
+                  "size": 31.8,
+                  "url": "/uploads/small_feet_1840619_1920_20e318ef33.jpg"
+                }
+              },
+              "hash": "feet_1840619_1920_20e318ef33",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 338.1,
+              "url": "/uploads/feet_1840619_1920_20e318ef33.jpg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-04-15T22:40:57.943Z",
+              "updatedAt": "2022-04-15T22:40:57.943Z"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "meta": {
+    "pagination": { "page": 1, "pageSize": 25, "pageCount": 1, "total": 2 }
+  }
+}
