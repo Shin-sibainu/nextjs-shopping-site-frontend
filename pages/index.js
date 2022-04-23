@@ -2,10 +2,22 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 
 import products from "../products.json";
-import { fromImageToUrl } from "../utils/urls";
+import { fromImageToUrl, APIURL } from "../utils/urls";
 import Link from "next/link";
 
-export default function Home() {
+export async function getStaticProps() {
+  const productsResponce = await fetch(`${APIURL}/api/products?populate=*`);
+  const products = await productsResponce.json();
+
+  // console.log(products);
+  return {
+    props: {
+      products: products,
+    },
+  };
+}
+
+export default function Home({ products }) {
   return (
     <div className={styles.container}>
       <Head>

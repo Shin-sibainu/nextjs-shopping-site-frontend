@@ -1,4 +1,5 @@
-const APIURL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:1337";
+export const APIURL =
+  process.env.NEXT_PUBLIC_API_URL || "http://localhost:1337";
 
 /**
  * Given an image return the URL
