@@ -1,0 +1,25 @@
+.header {
+  width: 100%;
+  height: 60px;
+  background-color: #867b7b;
+}
+
+.headerWrapper {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.headerTitle {
+  font-size: 25px;
+  margin-bottom: 3px;
+}
+
+.headerUl {
+  list-style: none;
+}
+
+.headerUl li a {
+  margin-right: 20px;
+}
