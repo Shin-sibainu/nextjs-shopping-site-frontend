@@ -10,7 +10,6 @@
   margin-top: -70px;
   margin-bottom: 20px;
   font-size: 45px;
-  color: white;
 }
 
 .secondTitle {
@@ -28,4 +27,10 @@
 .price {
   font-size: 19px;
   margin: 9px 0;
+}
+
+.backButton {
+  margin-top: 15px;
+  padding: 5px 20px;
+  cursor: pointer;
 }

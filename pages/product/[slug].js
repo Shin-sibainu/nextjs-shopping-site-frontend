@@ -3,8 +3,9 @@ import Head from "next/head";
 import products from "../../products.json";
 import { APIURL, fromImageToUrl } from "../../utils/urls";
 import styles from "../../styles/Product.module.css";
+import { useRouter } from "next/router";
 
-const product = products.data[0];
+// const product = products.data[0];
 
 export async function getStaticProps({ params: { slug } }) {
   const productResponse = await fetch(
@@ -36,6 +37,13 @@ export async function getStaticPaths() {
 }
 
 const Product = ({ product }) => {
+  const router = useRouter();
+
+  const handleBack = (e) => {
+    e.preventDefault();
+    router.back();
+  };
+
   return (
     <div className={styles.container}>
       <Head>
@@ -62,6 +70,9 @@ const Product = ({ product }) => {
         <p className={styles.price}>{product.attributes.price}円</p>
 
         <p>{product.attributes.content}</p>
+        <button onClick={(e) => handleBack(e)} className={styles.backButton}>
+          戻る
+        </button>
       </div>
     </div>
   );
