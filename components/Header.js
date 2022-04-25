@@ -2,8 +2,11 @@ import Link from "next/link";
 import styles from "../styles/Header.module.css";
 import { useContext } from "react";
 import AuthContext from "../context/AuthContext";
+import { useRouter } from "next/router";
 
 function Header() {
+  const { user } = useContext(AuthContext);
+
   return (
     <div className={styles.header}>
       <div className={styles.headerWrapper}>
@@ -19,6 +22,18 @@ function Header() {
             <a href="#">詳細</a>
           </li>
         </ul>
+
+        <div>
+          {user ? (
+            <Link href="/account">
+              <a>{user.email}</a>
+            </Link>
+          ) : (
+            <Link href="/login">
+              <a>ログイン</a>
+            </Link>
+          )}
+        </div>
       </div>
     </div>
   );

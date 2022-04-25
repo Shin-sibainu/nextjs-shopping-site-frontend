@@ -1,11 +1,9 @@
 export const APIURL =
   process.env.NEXT_PUBLIC_API_URL || "http://localhost:1337";
 
-/**
- * Given an image return the URL
- * Works for local and deployed strapis
- * @param {any} image
- */
+export const MAGIC_PUBLIC_KEY =
+  process.env.NEXT_PUBLIC_MAGIC_PUBLIC_KEY || "pk_live_1DC7759513B5AF2C";
+
 export const fromImageToUrl = (image) => {
   if (!image) {
     return "/vercel.svg";
