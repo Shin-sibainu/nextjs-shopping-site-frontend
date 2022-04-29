@@ -24,6 +24,7 @@ export default function Account() {
         <meta name="description" content="アカウントのページです。" />
       </Head>
       <h2>アカウントページ</h2>
+      <p>{user.email}でログイン中</p>
       <a href="#" onClick={logout}>
         ログアウト
       </a>

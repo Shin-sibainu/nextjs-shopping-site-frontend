@@ -1,0 +1,28 @@
+.loginWrapper {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 300px;
+}
+
+.input {
+  width: 60%;
+  padding: 10px;
+  display: inline-block;
+  margin-bottom: 12px;
+  margin-top: 12px;
+  font-size: 24px;
+}
+
+.button {
+  width: 60%;
+  font-size: 24px;
+  background: #3b4b80;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  display: inline-block;
+  padding: 12px;
+  cursor: pointer;
+  /* margin-bottom: 24px; */
+}

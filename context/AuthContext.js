@@ -15,6 +15,7 @@ export const AuthProvider = (props) => {
 
   useEffect(() => {
     magic = new Magic(MAGIC_PUBLIC_KEY);
+    checkUserLoggedIn();
   }, []);
 
   const login = async (email) => {
@@ -30,8 +31,21 @@ export const AuthProvider = (props) => {
   };
 
   const logout = async () => {
-    setUser(null);
-    router.push("/");
+    try {
+      await magic.user.logout();
+      setUser(null);
+      router.push("/");
+    } catch (err) {}
+  };
+
+  const checkUserLoggedIn = async () => {
+    try {
+      const isLoggedIn = await magic.user.isLoggedIn();
+      if (isLoggedIn) {
+        const { email } = await magic.user.getMetadata();
+        setUser({ email });
+      }
+    } catch (err) {}
   };
 
   return (
